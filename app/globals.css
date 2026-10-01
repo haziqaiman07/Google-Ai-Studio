@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+.font-serif-display {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.font-sans-ui {
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Luxury card subtle textures & sheen */
+.card-metallic-sheen {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.03) 40%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(255, 255, 255, 0.08) 100%
+  );
+}
+
+.card-gold-sheen {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 223, 136, 0.25) 0%,
+    rgba(201, 162, 75, 0.1) 35%,
+    rgba(255, 255, 255, 0.05) 50%,
+    rgba(201, 162, 75, 0.2) 100%
+  );
+}
+
+.card-shadow-luxury {
+  box-shadow: 0 20px 45px -12px rgba(18, 17, 16, 0.22), 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d8d3cb;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b8b1a5;
+}
+

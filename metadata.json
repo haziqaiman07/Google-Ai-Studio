@@ -1,0 +1,8 @@
+{
+  "name": "TapLinkPro V5 — Luxury NFC Business Cards",
+  "description": "Luxury physical NFC business cards, digital identity profiles, and practical small-business card lifecycle management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
